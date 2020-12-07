@@ -41,9 +41,28 @@
                     <div class="form-group"><label>Name</label><input class="form-control" type="text" name="full_name"></div>
                     <div class="form-group"><label>Department</label><input class="form-control" type="text" name="dept"></div>
                     <div class="form-group"><label>NRP</label><input class="form-control" type="text" name="nrp"></div>
+                    <hr>
                     <div class="form-group"><label>LINE ID</label><input class="form-control" type="text" name="line"></div>
                     <div class="form-group"><label>Email</label><input class="form-control" type="email" name="email"></div>
-                    <div class="form-group"><button class="btn btn-primary btn-block pageclip-form__submit" type="submit">Send</button></div>
+                    <hr>
+                    <div class="form-group"><label>Position</label>
+                        <select class="form-control">
+                            <optgroup label="Human Resources and Training">
+                                <option value="HR Staff" selected="">Staff</option>
+                            </optgroup>
+                            <optgroup label="Information and Technology">
+                                <option value="IT Sosmed">Staff of Information</option>
+                                <option value="IT Webdev">Staff of Technology</option>
+                            </optgroup>
+                            <optgroup label="External Affairs">
+                                <option value="EA Head">Head of External Affairs</option>
+                                <option value="EA Staff">Staff</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <hr>
+                    <div class="form-group"><label>Motivation Letter</label><input class="form-control" type="letter" name="text"></div>
+                    <div class="form-group"><button class="btn btn-primary btn-block pageclip-form__submit" type="submit">Apply</button></div>
                 </form>
             </div>
         </section>
